@@ -1,0 +1,26 @@
+{
+  "name": "argshift",
+  "description": "argshift takes a function, and returns the same function but with its arguments shifted one to the left, and into context",
+  "version": "1.0.0",
+  "main": "argshift.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mweitzel/argshift.git"
+  },
+  "keywords": [
+    "builtin",
+    "funcitons",
+    "bind",
+    "call",
+    "apply"
+  ],
+  "author": "Matthew Weitzel <mweitzel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mweitzel/argshift/issues"
+  },
+  "homepage": "https://github.com/mweitzel/argshift#readme"
+}
