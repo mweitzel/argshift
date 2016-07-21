@@ -28,17 +28,16 @@ capitalize('loud noises')
 var capitalize = String.prototype.toUpperCase.call.bind(String.prototype.toUpperCase)
 capitalize('loud noises')
 
-// LOUD NOISES
+// -> LOUD NOISES
 
-// and yes, this works, but its crazy long and odd to reason about
-
-// so instead you can now
+// and yes, this works
+// but its crazy long and odd to reason about
+// so instead you can just..
 
 var capitalize = argshift(String.prototype.toUpperCase)
-
 capitalize('loud noises!!!')
 
-// LOUD NOISES!!!
+// -> LOUD NOISES!!!
 ```
 
 A more examply example
