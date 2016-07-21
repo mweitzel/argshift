@@ -1,6 +1,6 @@
 # argshift
 
-argshift generates a function with arguments shifted one to the left, into context
+argshift takes a function, and returns the same function but with its arguments shifted one to the left, and into context
 
 ## installation
 
