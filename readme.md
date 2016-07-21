@@ -47,9 +47,10 @@ var argshift = require('argshift')
 var reduce = argshift(Array.prototype.reduce)
 
 // now reduce works on both arrays and strings!
-reduce([1,2,3], (a,b) => a+b)
-> reduce('asdf', (a,b) => b+a)
-'fdsa'
+reduce([1,2,3,4], (a,b) => a+b)
+// -> 10
+reduce('asdf', (a,b) => b+a)
+// -> 'fdsa'
 ```
 
 ## license
