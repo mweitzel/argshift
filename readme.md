@@ -1,17 +1,17 @@
 # argshift
 
-argshift generates a fucntion with arguments shifted one to the left, into context
+argshift generates a function with arguments shifted one to the left, into context
 
 ## installation
 
-```
+```bash
 npm install argshift
 ```
 
 ## usage
 
 An explanatory example
-```
+```js
 var capitalize = String.prototype.toUpperCase
 console.log(capitalize('loud noises'))
 
@@ -41,7 +41,7 @@ console.log(capitalize('loud noises!!!'))
 
 A more examply example
 
-```
+```js
 var argshift = require('argshift')
 var reduce = argshift(Array.prototype.reduce)
 
