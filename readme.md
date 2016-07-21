@@ -12,6 +12,9 @@ npm install argshift
 
 An explanatory example
 ```js
+
+// trying to use built in methods sucks.
+
 var capitalize = String.prototype.toUpperCase
 console.log(capitalize('loud noises'))
 
